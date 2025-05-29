@@ -16,16 +16,27 @@ A real-time voice conversion system using diffusion-based generative modeling to
 
 ## 📁 Repository Structure
 ├── dataset/ # Preprocessed audio data
+
 ├── seed-vc*/ # Minimal baseline implementations
+
 ├── eval_plots/ # Generated evaluation figures
+
 ├── load_rus_checkpoints.py # Download or prepare Russian model weights
+
 ├── train.sh, train_v1.sh # Training scripts
+
 ├── run_inference.sh # Inference script
+
 ├── run_demo_*.sh # Demo & comparison scripts
+
 ├── run_distill.sh # Distillation pipeline
+
 ├── eval.sh # Evaluation workflow
+
 ├── test.ipynb # Quick notebook tests
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # ← this file
 
 
